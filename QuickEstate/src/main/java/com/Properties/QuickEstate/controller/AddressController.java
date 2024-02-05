@@ -23,7 +23,7 @@ public class AddressController {
 	
 	@Autowired
 	AddressService addressService;
-	
+	//Adding with message
 	@PostMapping("/address")
 	public Address createAddressDetails(@RequestBody Address address) {
 	return addressService.AddressDetails(address);	
